@@ -11,89 +11,91 @@
     <link rel="icon" href="https://cdn.pixabay.com/photo/2014/03/25/15/20/coat-hanger-296551_960_720.png">
     <title>Baju</title>
 <style>
-    .jumbotron{
-        background-image:url("https://ohayo.co.id/wp-content/uploads/2019/05/Cara-menentukan-perpaduan-warna-baju-dan-jilbab.jpg");
-        height: 500px;
-    }
-    body{
+  .jumbotron {
+      background-image:url("https://ohayo.co.id/wp-content/uploads/2019/05/Cara-menentukan-perpaduan-warna-baju-dan-jilbab.jpg");
+      height: 500px;
+  }
+  body {
       background-color:brown;
-    }
+  }
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <b><h1 style="color:blue; text-align:right; font-family:monospace;" class="display-4">Baju Beautifull</b></h1>
+      <p style="text-align:right;" class="lead">Berbagai macam-macam baju murah</p>
+    </div>
   </div>
-</nav>
-<div class="jumbotron jumbotron-fluid">
+<!-- Card -->
   <div class="container">
-    <b><h1 style="color:blue; text-align:right; font-family:monospace;" class="display-4">Baju Beautifull</b></h1>
-    <p style="text-align:right;" class="lead">Berbagai macam-macam baju murah</p>
+  <div class="row">
+  <div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://vn-test-11.slatic.net/original/9af0aaeb8d2a2826efba5b4972da2cb4.jpg_340x340q80.jpg_.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
-</div>
-<div class="container">
-    <div class="row">
-    <div class="col">
-<div class="card" style="width: 18rem;">
-  <img src="https://vn-test-11.slatic.net/original/9af0aaeb8d2a2826efba5b4972da2cb4.jpg_340x340q80.jpg_.webp" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-</div>
-<div class="col">
-<div class="card" style="width: 18rem;">
-  <img src="https://my-test-11.slatic.net/original/5c5f236cafbf04f474e80b393382f869.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://my-test-11.slatic.net/original/5c5f236cafbf04f474e80b393382f869.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
-</div>
-</div>
-<div class="col">
-<div class="card" style="width: 18rem;">
-  <img src="https://my-test-11.slatic.net/p/6715b58d2a11eaab7f5a27a40e363d9e.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-</div>
-</div>
+  <div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="https://my-test-11.slatic.net/p/6715b58d2a11eaab7f5a27a40e363d9e.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  </div>
 </body>
 </html>
