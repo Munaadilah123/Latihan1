@@ -24,3 +24,11 @@ Route::get('/Sepatu', 'SepatuController@index');
 Route::get('/Dokter', 'DokterController@index');
 
 Route::get('/Kaos', 'KaosController@index');
+
+Route::get('/Barang', 'BarangController@index');
+
+Route::get('/User', 'UserController@index');
+
+Route::get('/Katagori', 'KatagoriController@index');
+
+Route::get('/Satuan', 'SatuanController@index');
